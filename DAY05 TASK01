@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FIFA World Cup 2014 News</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px;
+        }
+        .demo-image {
+            background-color: #90ee90;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 10px 0 10px 20px;
+            border: 2px solid #aaa;
+            width: 50%;
+        }
+        h2 {
+            color: black;
+        }
+        a {
+            color: blue;
+            display: block;
+            margin: 5px 0;
+        }
+        .social-icons img {
+            width: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-image">This is a demo image</div>
+
+    <h2>FIFA World Cup 2014 News</h2>
+    <p>
+        The biggest surprise in the history of the FIFA World Cup qualification — and indeed in the history of international football —
+        was recorded in 1 April 2001, when Australia beat American Samoa 31-0.This legendary match also helped global exposure for Archie Thompson, whose 13-goal haul set a new world record,
+        which stands to this day, as does an individual player in a single international match.And though the defeat earned American Samoa sympathy, in inspiring but determined recovery from it,
+        it is now the subject of an acclaimed documentary, "Next Goal Wins", showing across the world.
+    </p>
+
+    <h3>Destinations</h3>
+    <a href="#">BELO HORIZONTE: STADIUM - Estadio Mineirao</a>
+    <a href="#">BRASILIA: STADIUM - Estadio Nacional</a>
+    <a href="#">CUIABA: STADIUM - Arena Pantanal</a>
+    <a href="#">CURITIBA: STADIUM - Arena da Baixada</a>
+    <a href="#">FORTALEZA: STADIUM - Estadio Castelao</a>
+    <a href="#">MANAUS: STADIUM - Arena Amazonia</a>
+    <a href="#">NATAL: STADIUM - Estadio das Dunas</a>
+    <a href="#">PORTO ALEGRE: STADIUM - Estadio Beira-Rio</a>
+    <a href="#">RECIFE: STADIUM - Arena Pernambuco</a>
+    <a href="#">RIO DE JANEIRO: STADIUM - Estadio Maracana</a>
+    <a href="#">SALVADOR: STADIUM - Arena Fonte Nova</a>
+    <a href="#">SAO PAULO: STADIUM - Arena de Sao Paulo</a>
+
+    <div class="social-icons">
+        <img src="data:image/png;base64,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" alt="RSS">
+        <img src="data:image/png;base64,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" alt="Linked In">
+        <img src="data:image/png;base64,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" alt="Twitter">
+    </div>
+</body>
+</html>
