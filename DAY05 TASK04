@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stylish Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: left;
+            background-color: black;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+            border-bottom: 5px solid orange;
+        }
+
+        .navbar a {
+            padding: 15px 30px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            border-left: 2px solid white;
+            display: inline-block;
+        }
+
+        .navbar a:first-child {
+            border-left: none;
+        }
+
+        .navbar a:hover {
+            background-color: orange;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Users</a>
+        <a href="#">Login</a>
+    </div>
+
+</body>
+</html>
